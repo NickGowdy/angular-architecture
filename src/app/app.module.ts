@@ -3,12 +3,11 @@ import { NgModule } from '@angular/core';
 
 // Routing Modules
 import { AppRoutingModule } from './app-routing.module';
-
-
 import { AppComponent } from './app.component';
 
 // System modules
 import { HeroesModule } from './heroes/heroes.module';
+import { SharedModule } from './shared/shared.module';
 
 
 @NgModule({
@@ -18,7 +17,8 @@ import { HeroesModule } from './heroes/heroes.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HeroesModule
+    HeroesModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
