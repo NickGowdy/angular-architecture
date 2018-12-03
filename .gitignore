@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
@@ -37,3 +38,30 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+=======
+# Outputs
+bazel-*
+test-project-host-*
+dist/
+dist-schema/
+
+# IDEs
+.idea/
+jsconfig.json
+.vscode/
+
+# Typings file.
+typings/
+
+# Misc
+coverage/
+node_modules/
+tmp/
+npm-debug.log*
+yarn-error.log*
+.ng_pkg_build/
+
+# Mac OSX Finder files.
+**/.DS_Store
+.DS_Store
+>>>>>>> 8b84ced35eae95c4aaa19933eeb85fc2bebca261
